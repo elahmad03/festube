@@ -1,0 +1,252 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1500px;
+  background: #fefefe;
+  color: #333333;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  margin: 0 auto;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+/* link styles */
+a {
+  color: #3861fb;
+  text-decoration: none;
+}
+a:hover {
+  font-style: italic;
+}
+
+/* header styles */
+.ahg_header {
+  width: 100%;
+}
+
+.bg-light {
+  background: #fff !important;
+}
+
+.navbar-light .navbar-brand {
+  color: #3861fb;
+}
+
+.navbar-light .navbar-brand:hover {
+  color: #3861fb;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #3861fb;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:focus {
+  color: rgba(33, 30, 194, 0.753);
+}
+
+.navbar-light .navbar-toggler {
+  color: #3861fb;
+  border-color: #3861fb;
+}
+
+/* showcase styles */
+.carousel-item img {
+  width: 100%;
+  height: 400px;
+}
+.carousel-inner {
+  position: relative;
+}
+.overlay {
+  background: #2985fd;
+  opacity: 0.4;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  pointer-events: none;
+}
+.carousel-caption h3 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+.carousel-caption p {
+  text-transform: capitalize;
+}
+/* about us  */
+#about {
+  margin: 1rem 0;
+}
+.title {
+  text-align: center;
+  margin: 0.3rem;
+}
+.title h3 {
+  display: inline-block;
+  padding: 0 0.3rem 0.3rem;
+  text-transform: capitalize;
+  border-bottom: #3861fb solid 0.2rem;
+  border-left: #3861fb solid 0.2rem;
+  border-bottom-left-radius: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#about p.content {
+  padding: 1.25rem;
+  margin: 1.25rem 0;
+}
+/* anouncement styles */
+#announcement {
+  background: #fff;
+  color: #000;
+  margin: 0.5rem auto;
+  padding: 0.5rem;
+}
+
+#announcement .title {
+  display: inline-block;
+  background: #3861fb;
+  color: #fff;
+  padding: 0.5rem;
+  margin: 0;
+  border: 1px solid #3861fb;
+  border-top-left-radius: 0.5rem;
+}
+
+#announcement .title h3 {
+  font-size: 1.3125rem;
+  margin: 0;
+  padding: 0;
+}
+#announcement .content {
+  border: 1px solid #3861fb;
+  border-top-right-radius: 0.5rem;
+  padding: 1.25rem;
+}
+
+/* our films shows */
+#shows .card-img-top {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 0.8rem;
+}
+#shows .card {
+  margin: 0.5rem 0.2rem;
+  border-radius: 0.8rem;
+  box-shadow: #888 3px 3px 3px;
+  height: 95%;
+}
+#shows .card .card-title {
+  height: 30px;
+  overflow: hidden;
+}
+#shows .card .card-text {
+  height: 100px;
+  overflow: hidden;
+}
+#shows h4 {
+  text-transform: capitalize;
+}
+#shows .btn-watch {
+  background: #3861fb;
+  color: #fff;
+}
+
+/* registration page styles */
+.sign-up {
+  max-width: 500px;
+  background: #fff;
+  color: #000;
+  padding: 0.625rem;
+  margin: 0.3125rem auto;
+}
+
+.btn-register {
+  width: 100%;
+  background: #2985fd;
+  color: #fff;
+  border-color: #28a745;
+}
+
+.btn-register:hover {
+  background: #4287f5;
+  color: #000;
+  border-color: #2985fd;
+}
+
+.btn-register:focus {
+  box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.5);
+}
+
+/* footer style */
+.footer {
+  background: #181e25;
+  background-position: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #cccccc;
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  border-top: 0.5rem solid #3861fb;
+}
+.footer h3 {
+  text-transform: capitalize;
+  padding-left: 0.3rem;
+}
+.footer ul {
+  list-style-type: square;
+}
+.footer ul > li {
+  color: #2985fd;
+}
+.footer a {
+  color: #2985fd;
+  text-decoration: none;
+}
+.footer a:hover {
+  color: #3861fb;
+}
+.social-icons {
+  display: flex;
+  flex: 1 1 50px;
+}
+.social-icons li {
+  list-style: none;
+  width: 40px;
+  height: 40px;
+  background: #2985fd;
+  text-align: center;
+  margin: 8px 5px;
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-size: 20px;
+}
+.social-icons a {
+  color: #fff;
+}
+.social-icons li:hover,
+.social-icons a:hover {
+  background: #3861fb;
+  color: #000;
+}
+
+/* for large screens */
+@media (min-width: 992px) {
+  /* about us  */
+  #about {
+    margin: 2rem 0;
+  }
+
+  #ourshows {
+    margin: 1rem 0;
+  }
+}
